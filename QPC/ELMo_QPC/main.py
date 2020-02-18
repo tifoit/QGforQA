@@ -146,10 +146,10 @@ def evaluate(eval_file, answer_dict):
         t += label
         tp += pred_label * label
         correct += int(pred_label == label)
-    if tp == 0:
-        f1 = 0.
-    else:
-        prec = tp / p
-        recall = tp / t
-        f1 = (2 * prec * recall) / (prec + recall)
+   # if tp == 0:
+   #     f1 = 0.
+   # else:
+   #     prec = tp / p
+   #     recall = tp / t
+   #     f1 = (2 * prec * recall) / (prec + recall)
     return {'accuracy': correct / len(answer_dict), 'f1': f1}
