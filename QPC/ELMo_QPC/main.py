@@ -73,10 +73,10 @@ def train(config):
                     write_metrics(metrics, writer, global_step, "dev")
 
                     acc = metrics["accuracy"]
-                    if acc > best_acc:
-                        best_acc, best_ckpt = acc, global_step
-                        save(config.best_ckpt, {"best_acc": str(acc), "best_ckpt": str(best_ckpt)},
-                             config.best_ckpt)
+#                    if acc > best_acc:
+#                        best_acc, best_ckpt = acc, global_step
+#                        save(config.best_ckpt, {"best_acc": str(acc), "best_ckpt": str(best_ckpt)},
+#                             config.best_ckpt)
 
 
 def test(config):
