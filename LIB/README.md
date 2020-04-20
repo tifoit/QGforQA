@@ -4,9 +4,9 @@ This directory contains some commonly used codes and resources.
 ## EVAL
 Some evaluation functions for QG and QA:
 
-BLEU (bleu.py): from https://github.com/tensorflow/nmt/blob/master/nmt/scripts/bleu.py
-
 ROUGE (rouge.py): from https://github.com/tylin/coco-caption/blob/master/pycocoevalcap/rouge/rouge.py
+
+BLEU (bleu.py): from https://github.com/tensorflow/nmt/blob/master/nmt/scripts/bleu.py
 
 METEOR (meteor.py, meteor-1.5.jar, data/): from https://github.com/tylin/coco-caption/tree/master/pycocoevalcap/meteor
 
